@@ -4,15 +4,15 @@
  * @type {string[]}
  */
 
-export const publicRoutes = ["/"];
+export const publicRoutes: string[] = ["/"];
 
 /**
  * An array of routes that are used for  authentication
- * these routes  will redirect logged in users to settings
+ * these routes  will redirect logged-in users to settings
  * @type {string[]}
  */
 
-export const authRoutes = ["/auth/login", "/auth/register"];
+export const authRoutes: string[] = ["/auth/login", "/auth/register"];
 
 export const apiAuthPrefix = "/api/auth";
 

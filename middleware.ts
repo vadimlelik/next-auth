@@ -10,7 +10,7 @@ import {
   apiAuthPrefix,
 } from "@/routes";
 
-// ts ignore
+// @ts-ignore
 export default auth((req) => {
   // req.auth
   const { nextUrl } = req;
